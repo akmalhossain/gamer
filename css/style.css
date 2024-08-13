@@ -1,19 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* fonts */
 
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-html{
+html {
     font-size: 16px;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,40 +21,186 @@ html{
 
 
 /* colors  */
-:root{
-    --primary-color:#FF42A5;
-    --secondary-color:rgba(135, 88, 241, 1);
+:root {
+    --primary-color: #FF42A5;
+    --secondary-color: rgba(135, 88, 241, 1);
+    --button-color:#4EC5F7;
     --title-color: #0B0223;
-    --menus-color:#3C354F;
-    --paragraph-color:#534C64;
-    --white-color:#ffffff;
-    --copy-right-color:rgba(255, 255, 255, 0.6);
+    --menus-color: #3C354F;
+    --paragraph-color: #534C64;
+    --white-color: #ffffff;
+    --copy-right-color: rgba(255, 255, 255, 0.6);
+}
+/* shared style  */
+
+.align-center{
+    margin:0 auto;
+}
+.display-flex{
+    display: flex;
+}
+.primary-btn{
+    padding: 21px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 48px;
+    color: var(--white-color);
+    margin-top:32px ;
 }
 
 /* navigation bar */
-.nav-main{
-    border: 1px solid tomato;
+.nav-container {
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.nav-main {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
-.brand-logo{
- font-size: 2.8rem;
- font-weight: 700;
-}
-.left-menu{
+    padding: 20px 0;
 
 }
-.nav-btn{
+
+.brand-logo {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.left-menu {}
+
+.nav-btn {
     background: none;
     border: none;
     font-size: 1.125rem;
     font-weight: 600;
     color: var(--menus-color);
+    margin-right: 16px;
 }
-#follow-btn{
-    background-color:rgba(11, 2, 35, 0.1) ;
+
+#follow-btn {
+    background-color: rgba(11, 2, 35, 0.1);
     border-radius: 8px;
     padding: 24px 18px;
-    
+    margin-right: 0;
 
+
+}
+
+.hero-banner {
+    
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+   
+}
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content {
+    width: 50%;
+
+}
+
+.gradient-title {
+    font-weight: 900;
+    font-size: 6rem;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.banner-image {
+    width: 50%;
+    
+}
+
+.banner-image>img {
+    width: 100%;
+    line-height: 0px;
+}
+
+.primary-btn {
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 1), rgba(255, 66, 165, 1));
+}
+
+.banner-btn-1, .banner-btn-2 {
+    padding: 21px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 48px;
+    color: var(--white-color);
+    margin-top:40px ;
+}
+
+.banner-btn-1{
+background-image: linear-gradient(90deg, rgba(255, 66, 165, 1), rgba(255, 66, 165, 1) );
+margin-right: 24px;
+}
+.banner-btn-2{
+background-color: #4EC5F7;
+}
+.icon-list{
+    margin-top: 16px;
+}
+.icon-list i{
+    width: 30px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+/* we are gamer section  */
+.we-r-gamer{
+    margin-top: 55px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.gamer-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.section-content{
+    text-align: right;
+    width: 520px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 3rem;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.section-paragraph{
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.our-purpose{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 24px;
+}
+
+.gamer-in-everyone{
+    font-size: 2rem;
+    font-weight: 700;
 }

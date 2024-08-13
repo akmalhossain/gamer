@@ -1,0 +1,28 @@
+/* small screen  */
+@media screen and (max-width:576px) {
+    
+    .nav-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+ .left-menu{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+ }
+ #follow-btn{
+    max-width: 262px;
+    margin: 0 auto;
+ }
+}
+
+/* medium screen */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-container{
+        padding: 0 20px;
+    }
+    
+}
