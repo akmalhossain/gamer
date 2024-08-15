@@ -75,6 +75,15 @@
     gap: 50px;
 
 }
+.play-instanly{
+    flex-direction: column;
+}
+.over-image-right{
+    width: 50%;
+}
+.over-image-left{
+    width: 50%;
+}
 }
 
 /* medium screen */

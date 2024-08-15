@@ -51,6 +51,10 @@ html {
 .margin-top-100{
     padding-top: 100px;
 }
+
+.text-align-right{
+    text-align: right;
+}
 /* navigation bar */
 .nav-container {
 
@@ -218,7 +222,7 @@ background-color: #4EC5F7;
 .online-main{
     display: grid;
     grid-template-areas: "a b c d";
-    gap: 10px;
+    gap: 24px;
 }
 
 .card-1{
@@ -236,7 +240,35 @@ background-color: #4EC5F7;
 
 .online-card img {
     width: 100%;
+    margin-bottom: 24px;
 }
 .card-content{
     font-size: 1.25rem;
+}
+.play-instanly
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-top: 120px;
+}
+.play-instantly-image{
+    position: relative;
+    margin: 0 auto;
+}
+
+.bellow-image{
+    width: 80%;
+}
+
+.over-image-right{
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+}
+.over-image-left{
+    position: absolute;
+    bottom: -80px;
+    right: -100px;
 }
