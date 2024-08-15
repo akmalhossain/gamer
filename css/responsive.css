@@ -77,12 +77,16 @@
 }
 .play-instanly{
     flex-direction: column;
+    margin: 0 auto;
 }
-.over-image-right{
-    width: 50%;
+
+.play-instanly-2{
+    flex-direction: column-reverse;
+    margin: 0 auto;
 }
-.over-image-left{
-    width: 50%;
+.play-instantly-content{
+    width: 100%;
+    text-align: center;
 }
 }
 

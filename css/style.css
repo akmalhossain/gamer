@@ -246,12 +246,23 @@ background-color: #4EC5F7;
     font-size: 1.25rem;
 }
 .play-instanly
-{
+{  
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 150px;
     margin-top: 120px;
+}
+
+.play-instanly-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-top: 120px;
+}
+.play-instantly-content{
+    width: 50%;
 }
 .play-instantly-image{
     position: relative;
@@ -259,16 +270,20 @@ background-color: #4EC5F7;
 }
 
 .bellow-image{
-    width: 80%;
+    width: 100%;
 }
 
 .over-image-right{
     position: absolute;
+    width: 318px;
+    height: 365px;
     bottom: -80px;
     left: -100px;
 }
 .over-image-left{
     position: absolute;
+    width: 318px;
+    height: 365px;
     bottom: -80px;
     right: -100px;
 }
