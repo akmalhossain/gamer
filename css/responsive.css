@@ -1,5 +1,8 @@
 /* small screen  */
 @media screen and (max-width:576px) {
+    .container{
+        max-width: 90%;
+    }
     
     .nav-main{
         flex-direction: column;
@@ -16,6 +19,62 @@
     max-width: 262px;
     margin: 0 auto;
  }
+ /* hero banner  */
+ .hero-banner{
+    width: 90%;
+    background: none;
+    margin: 0 auto;
+ }
+
+ .banner-container{
+    width: 100%;
+    flex-direction: column-reverse;
+    text-align: center;
+ }
+ .banner-content{
+    width: 100%;
+    margin-top: 50px;
+ }
+.banner-btn-1{
+    margin-right: 0;
+}
+.banner-btn-2{
+    margin-top: 25px;
+}
+.banner-image{
+    width: 100%;
+    margin-top: 50px;
+}
+.nav-container {
+    box-shadow: none;
+}
+/* we are gamer section  */
+
+.gamer-image > img{
+    width: 100%;
+
+}
+.gamer-container{
+    flex-direction: column;
+    text-align: center;
+}
+.section-content{
+    text-align: center;
+}
+
+.online-main{
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    ;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+
+}
 }
 
 /* medium screen */

@@ -48,7 +48,9 @@ html {
     color: var(--white-color);
     margin-top:32px ;
 }
-
+.margin-top-100{
+    padding-top: 100px;
+}
 /* navigation bar */
 .nav-container {
 
@@ -161,7 +163,6 @@ background-color: #4EC5F7;
     margin-right: 5px;
     text-align: center;
 }
-
 /* we are gamer section  */
 .we-r-gamer{
     margin-top: 55px;
@@ -171,6 +172,7 @@ background-color: #4EC5F7;
     margin: 0 auto;
 
 }
+.gamer-image
 .gamer-container{
     justify-content: space-between;
     align-items: center;
@@ -185,6 +187,14 @@ background-color: #4EC5F7;
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     color: transparent;
+}
+.title-normal{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.section-header{
+    text-align: center;
+    padding-bottom: 48px;
 }
 
 .section-paragraph{
@@ -203,4 +213,30 @@ background-color: #4EC5F7;
 .gamer-in-everyone{
     font-size: 2rem;
     font-weight: 700;
+}
+/* online games */
+.online-main{
+    display: grid;
+    grid-template-areas: "a b c d";
+    gap: 10px;
+}
+
+.card-1{
+    grid-area: a;
+}
+.card-2{
+    grid-area: b;
+}
+.card-3{
+    grid-area: c;
+}
+.card-4{
+    grid-area: d;
+}
+
+.online-card img {
+    width: 100%;
+}
+.card-content{
+    font-size: 1.25rem;
 }
